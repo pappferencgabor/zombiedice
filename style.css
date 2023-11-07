@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#gamefield {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    gap: 20px;
+}
+.dice img {
+    width: 100%;
+    
+}
